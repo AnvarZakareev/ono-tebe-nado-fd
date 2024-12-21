@@ -22,7 +22,7 @@
         </ul>
       </nav>
       <a class="header__logo"><img class="header__logo-image" src="./images/logo-black.svg" alt="логотип оно тебе надо"></a>
-      <address class="header__address">
+      <address class="all__address header__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -31,19 +31,19 @@
     </header>
     <main class="main">
       <!-- первая секция -->
-      <div class="cover">
+      <section class="cover">
         <!-- Пустой DIV для затемнения -->
         <div class="overlay"></div>
           <h1 class="cover__title">
               <span class="aligned-text">О<span class="letter-spacing-extended">но</span></span>
               <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
-              <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>адо</span>
+              <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
           </h1>
           <div class="cover__description">
             <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-            <button class="bet-button">Сделать ставку</button>
+            <button type="button" class="bet-button">Сделать ставку</button>
           </div>
-      </div>
+      </section>
       <!-- секция с картинками -->
       <div class="lots">
         <h2 class="lots__heading">Лоты</h2>
@@ -53,7 +53,7 @@
                 <article class="card card_type_film"> 
                   <div class="overlay"></div>
                   <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
-                  <span class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  <span class="card__text"><p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
                   </span>
                 </article>
               </a>
@@ -63,7 +63,7 @@
                 <article class="card_type_book card"> 
                   <div class="overlay"></div>
                   <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                  <span class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                  <span class="card__text"><p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
                   </span>
                 </article>
             </a>
@@ -73,21 +73,11 @@
                 <article class="card_type_picture card"> 
                   <div class="overlay"></div>
                   <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                  <span class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков. . . Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                  <span class="card__text"><p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков. . . Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                   </span>
                 </article>
               </a>
           </li>
-          <!-- <li class="lots__card-list-item">
-            <a href="#" class="card-link">
-                <article class="card_type_film card"> 
-                  <div class="overlay"></div>
-                  <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                  <span class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-                  </span>
-                </article>
-              </a>
-          </li> -->
         </ul>
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </div>
@@ -95,7 +85,7 @@
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <img src="./images/logo-white.svg" alt="" class="about__logo-image">
+            <img src="./images/logo-white.svg" alt="логотип оно тебе надо" class="about__logo-image">
           </div>
           <h2 class="about__titel">Об аукционе</h2>
           <div class="about__text">
@@ -106,7 +96,7 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="header__address">
+      <address class="all__address footer__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -127,17 +117,17 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="" class="footer__social-link">
+          <a href="" target="_blank" class="footer__social-link">
             <img src="./images/yt.svg" alt="yourtube" class="footer__social-icon">
           </a>
         </li>
         <li class="footer__social-link">
-          <a href="" class="footer__social-link">
+          <a href="" target="_blank" class="footer__social-link">
             <img src="./images/vk.svg" alt="vk" class="footer__social-icon">
           </a>
         </li>
         <li class="footer__social-icon">
-          <a href="" class="footer__social-link">
+          <a href="" target="_blank" class="footer__social-link">
             <img src="./images/pinterest.svg" alt="pinterest" class="footer__social-icon">
           </a>
         </li>
